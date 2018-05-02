@@ -17,6 +17,6 @@ jobs:
   plan:
   - get: resource-tutorial
   - get: my-timer
-  - trigger: true
+    trigger: true
   - task: create-dir-files-then-delete
     file: resource-tutorial/script/files/create_make_del.yml
