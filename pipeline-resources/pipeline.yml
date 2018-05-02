@@ -4,7 +4,7 @@ resources:
   type: git
   source:
     uri: https://github.com/gthomson31/helloconcourse
-    branch: develop
+    branch: master
 
 jobs:
 - name: job-create-dir-files-then-delete
