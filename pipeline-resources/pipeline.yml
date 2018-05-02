@@ -16,12 +16,7 @@ jobs:
   public: true
   plan:
   - get: resource-tutorial
-  - task: create-dir-files-then-delete
-    file: resource-tutorial/script/files/create_make_del.yml
-    
-- name: run-every-2m
-  public: true
-  plan:
   - get: my-timer
   - trigger: true
-
+  - task: create-dir-files-then-delete
+    file: resource-tutorial/script/files/create_make_del.yml
