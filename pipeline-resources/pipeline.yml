@@ -18,3 +18,10 @@ jobs:
   - get: resource-tutorial
   - task: create-dir-files-then-delete
     file: resource-tutorial/script/files/create_make_del.yml
+    
+- name: run-every-2m
+  public: true
+  plan:
+  - get: 2m
+  - trigger: true
+
