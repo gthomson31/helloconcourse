@@ -5,6 +5,11 @@ resources:
   source:
     uri: https://github.com/gthomson31/helloconcourse.git
     branch: master
+        
+- name: my-timer
+  type: time
+  source:
+    interval: 2m
 
 jobs:
 - name: job-create-dir-files-then-delete
