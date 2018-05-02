@@ -9,7 +9,7 @@ resources:
 jobs:
 - name: job-create-dir-files-then-delete
   public: true
-  plan:
   - get: resource-tutorial
+  plan:
   - task: create-dir-files-then-delete
-    file: helloconcourse/files/create_make_del.yml
+    file: resource-tutorial/files/create_make_del.yml
