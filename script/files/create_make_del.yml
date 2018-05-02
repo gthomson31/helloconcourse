@@ -6,7 +6,7 @@ image_resource:
   source: {repository: busybox}
 
 inputs:
-- name: resource-tutorial
+- name: script
 
 run:
-  path: resource-tutorial/files/create_make_del.sh
+  path: script/files/create_make_del.sh
