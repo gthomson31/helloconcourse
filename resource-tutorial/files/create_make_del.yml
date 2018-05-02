@@ -9,4 +9,4 @@ inputs:
 - name: resource-tutorial
 
 run:
-  path: ./resource-tutorial/files/create_make_del.sh
+  path: resource-tutorial/resource-tutorial/files/create_make_del.sh
