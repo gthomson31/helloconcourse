@@ -22,6 +22,6 @@ jobs:
 - name: run-every-2m
   public: true
   plan:
-  - get: 2m
+  - get: my-timer
   - trigger: true
 
