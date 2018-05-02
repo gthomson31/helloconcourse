@@ -12,4 +12,4 @@ jobs:
   plan:
   - get: resource-tutorial
   - task: create-dir-files-then-delete
-    file: files/create_make_del.yml
+    file: helloconcourse/files/create_make_del.yml
