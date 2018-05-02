@@ -13,4 +13,4 @@ jobs:
   - aggregate:
     - get: resource-tutorial
   - task: create-dir-files-then-delete
-    file: resource-tutorial/files/create_make_del.yml
+    file: files/create_make_del.yml
