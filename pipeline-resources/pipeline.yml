@@ -3,13 +3,13 @@ resources:
 - name: resource-tutorial
   type: git
   source:
-    uri: https://github.com/starkandwayne/concourse-tutorial.git
+    uri: https://github.com/gthomson31/helloconcourse
     branch: develop
 
 jobs:
-- name: job-hello-world
+- name: job-create-dir-files-then-delete
   public: true
   plan:
   - get: resource-tutorial
-  - task: hello-world
-    file: resource-tutorial/tutorials/basic/task-hello-world/task_hello_world.yml
+  - task: create-dir-files-then-delete
+    file: resource-tutorial/files/create_make_del.ymal
