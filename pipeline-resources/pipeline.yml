@@ -10,7 +10,6 @@ jobs:
 - name: job-create-dir-files-then-delete
   public: true
   plan:
-  - aggregate:
-    - get: resource-tutorial
+  - get: resource-tutorial
   - task: create-dir-files-then-delete
     file: resource-tutorial/script/files/create_make_del.yml
